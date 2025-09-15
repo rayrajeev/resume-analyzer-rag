@@ -1,0 +1,29 @@
+Job Description: Senior Java Developer 
+About the Role 
+We’re looking for a Senior Java Developer who can hit the ground running and bring top-notch coding expertise to our team. 
+As a senior member, you’ll not only write clean, efficient, and maintainable code but also mentor junior developers, 
+contribute to architectural decisions, and ensure our applications run like a well-oiled machine. 
+
+Responsibilities:
+Design, develop, and maintain high-performance Java applications using Spring Boot, 
+Microservices, and REST APIs. Collaborate with cross-functional teams (Product, DevOps, QA) to deliver end-to-end solutions. 
+Implement cloud-native applications leveraging Azure/AWS/GCP. 
+Optimize application performance and scalability — making sure our systems don’t just run, but fly. 
+Participate in code reviews and enforce best practices for secure, efficient coding. 
+Troubleshoot production issues, rolling up your sleeves when the going gets tough.
+Mentor and guide junior developers, passing the torch of best practices. 
+
+Required Skills & Experience:
+8 years of professional experience in Java development. 
+Strong knowledge of Java 11/17/21 and solid understanding of OOP principles. 
+Hands-on expertise with Spring Boot, Hibernate/JPA, Microservices architecture. 
+Proficiency in SQL/NoSQL databases (MySQL, PostgreSQL, Cosmos DB, MongoDB). 
+Experience with cloud platforms (Azure, AWS, or GCP). 
+Knowledge of CI/CD pipelines, Docker, and Kubernetes. 
+Familiarity with messaging systems (Kafka, RabbitMQ, or Azure Service Bus). 
+Excellent problem-solving skills and ability to think on your feet. Strong communication and teamwork skills. 
+
+Nice-to-Have:
+Experience with GraphQL or Reactive Programming. 
+Exposure to big data pipelines or event-driven systems. 
+Knowledge of front-end frameworks (React, Angular) for full-stack development.
