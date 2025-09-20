@@ -1,6 +1,7 @@
 import json
 import re
 
+from langchain.chat_models import init_chat_model
 from openai import OpenAI
 
 from utils.prompt import jd_prompt, resume_prompt
@@ -8,20 +9,16 @@ from utils.prompt import jd_prompt, resume_prompt
 
 class AIDocumentParser:
     def __init__(self):
-        self.client = OpenAI()
+        self.model = init_chat_model("gpt-4o-mini", model_provider="openai")
 
     def parse_resume(self, resume_text: str) -> str:
-        response = self.client.responses.create(
-            model="gpt-4o-mini",
-            input=resume_prompt + f"\n Resume:{resume_text}\n",
-        )
-        print(response.output_text)
-        return response.output_text
+        prompt = (resume_prompt + f"\n Resume:{resume_text}\n",)
+        response = self.model.invoke(prompt)
+        print(response.content)
+        return response.content
 
     def parse_jd(self, job_description: str) -> str:
-        response = self.client.responses.create(
-            model="gpt-4o-mini",
-            input=jd_prompt + f"\n Job Description:{job_description}\n",
-        )
-        print(response.output_text)
-        return response.output_text
+        prompt = (jd_prompt + f"\n Job Description:{job_description}\n",)
+        response = self.model.invoke(prompt)
+        print(response.content)
+        return response.content
