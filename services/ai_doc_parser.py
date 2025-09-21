@@ -2,8 +2,6 @@ import json
 import re
 
 from langchain.chat_models import init_chat_model
-from openai import OpenAI
-
 from utils.prompt import jd_prompt, resume_prompt
 
 
